@@ -270,6 +270,71 @@ dialog button {
   }
   
  
+.inMore {
+  margin-top: 12px;
+}
+
+.btnModal {
+  width: 200px;
+  opacity: 90%;
+  text-decoration: none;
+  font-size: 16px;
+  color: #eeeded;
+  background: url(../img/background.png);
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+.btnModal:hover {
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(255 0 0 / 100%));
+  filter: drop-shadow(0px 0px 20px rgba(255 0 0 / 100%));
+  color: #d71313;
+}
+
+.container-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+dialog {
+  margin: 100px auto;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #eeeded;
+
+  padding: 0px;
+
+  background-color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
+  width: 90%;
+  height: 100vh;
+}
+
+dialog button {
+  width: 200px;
+  opacity: 90%;
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(255 0 0 / 100%));
+  filter: drop-shadow(0px 0px 20px rgba(255 0 0 / 100%));
+  text-decoration: none;
+  font-size: 16px;
+  color: #eeeded;
+  background-color: #d71313;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.8s;
+}
   
   
 }
