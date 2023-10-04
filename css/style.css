@@ -130,6 +130,8 @@ body {
 
 .inMore {
   margin-top: 12px;
+  
+  
 }
 
 .btnModal {
@@ -319,10 +321,11 @@ dialog {
   box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
   width: 90%;
   height: 100vh;
+  position: fixed;
 }
 
 dialog button {
-  width: 200px;
+  width: 100vw;
   opacity: 90%;
   -webkit-filter: drop-shadow(0px 0px 20px rgba(255 0 0 / 100%));
   filter: drop-shadow(0px 0px 20px rgba(255 0 0 / 100%));
@@ -334,7 +337,34 @@ dialog button {
   padding: 5px;
   border-radius: 10px;
   transition: 0.8s;
+  left: 25%;
+  
+  
 }
-  
-  
+.modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+}
+}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
