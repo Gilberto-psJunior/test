@@ -1,64 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SpiderMan In Verse - Poster Movie</title>
-    <link rel="shortcut icon" href="./img/fiveicon2.png" type="image/x-icon" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+  <link rel="icon" href="img/Novo Projeto.png">
 
-    <!-- BOOTSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  <link rel="stylesheet" href="styles.css">
 
-    <!-- JAVASCRIPT -->
-    <script src="./src/index.js" defer></script>
-  </head>
-  <body>
-    <dialog>
-      <iframe
-        width="900"
-        height="515"
-        src="https://www.youtube.com/embed/g4Hbz2jLxvQ?si=nqISPUaOxieV_06T"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-      <br /><br />
-      <button>Close</button>
-    </dialog>
+</head>
 
-    <div class="container-main">
-      <div id="container-miles">
-        <img id="miles" src="./img/spiderman-miles.png" alt="spiderman" />
-      </div>
-      <div>
-        <img id="title" src="./img/titleMovie.png" alt="title the movie" />
-      </div>
-      <img class="stone" id="stone-1" src="img/stone3.png" alt="" />
-      <img class="stone" id="stone-2" src="img/stone3.png" alt="" />
-      <img class="stone" id="stone-3" src="img/stone3.png" alt="" />
-      <div class="inMore">
-        <input
-          type="submit"
-          id="myModal"
-          class="btnModal"
-          value="Watch the trailer now"
-        />
-      </div>
+<body>
+
+  <header>
+
+    <img class="rickmorty" src="img/PngItem_262278.png" alt="">
+
+    <div class="hed">
+
+      <input type="text" id="name" placeholder="Filter by name..." class="filter">
     </div>
-  </body>
+    <a class="pickle" href=""><img src="img/pickle_resized.png" alt="">Home</a>
+  </header>
+  
+
+
+  <main>
+    <div class="user-list">
+
+    </div>
+    <img class="pageN" src="img/poster,504x498,f8f8f8-pad,600x600,f8f8f8 (1).png">
+    <img class="pageP" src="img/poster,504x498,f8f8f8-pad,600x600,f8f8f8 (1).png" alt="" srcset="">
+  </main>
+  <footer>
+    <div class="remimg"> <img src="img/rick-and-morty-portal-shoes-white-clothing-zavvi-23 (1).png" alt="1213"></div>
+
+  </footer>
+  <p id="foots" >Developed by:<a href="https://www.linkedin.com/in/gilberto-juniorsantos/"
+      target="_blank">Gilberto P.S.Júnior</a></p>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="src/app.js"></script>
+  <script src="src/index.js"></script>
+</body>
+
 </html>
