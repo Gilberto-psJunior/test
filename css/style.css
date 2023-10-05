@@ -375,7 +375,9 @@ dialog button {
   justify-content: center;
   align-items: center;
 }
-
+body{
+  max-height: 100vh;
+}
 .container-image img {
   width: 100px;
 }
